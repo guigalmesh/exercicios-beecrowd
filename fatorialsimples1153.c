@@ -10,6 +10,6 @@ int main(){
     int n, fat;
     scanf("%d", &n);
     fat = fatorialrecursiva(n);
-    printf("%d", fat);
+    printf("%d\n", fat);
     return 0;
 }
