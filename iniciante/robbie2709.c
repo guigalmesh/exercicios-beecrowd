@@ -25,9 +25,9 @@ int eh_primo(int num){
         return false;
     for(int i = 3; (i * i) <= num; i += 2){
         if(num % i == 0)
-            return true;
+            return false;
     }
-    return false;
+    return true;
 }
 
 int main(){
